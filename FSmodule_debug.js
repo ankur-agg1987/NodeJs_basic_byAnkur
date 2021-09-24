@@ -1,0 +1,1 @@
+var fs = require('fs');fs.readFile('test.txt', 'utf8', function (err, data) {    var a=10;	    debugger;    if (err) throw err;        console.log(data);		var c = 4;	console.log(c);});
